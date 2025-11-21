@@ -23,12 +23,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
   name             : "Ahmad Al-Tawaha"
+  avatar           : "profile.jpg"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate, Virginia Tech"
   location         : "Earth"
-  employer         : "Red Brick University"
+  employer         : # "Red Brick University"
   uri              : # URL
   email            : "atawaha@vt.edu"
 
