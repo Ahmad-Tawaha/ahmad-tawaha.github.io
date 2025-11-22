@@ -24,10 +24,10 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   name             : "Ahmad Al-Tawaha"
-  avatar           : "profile.jpg"
+  avatar           : "bio-photo.jpg"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. Candidate, Virginia Tech"
-  location         : "Earth"
+  location         : "Blacksburg, VA"
   employer         : # "Red Brick University"
   uri              : # URL
   email            : "atawaha@vt.edu"
