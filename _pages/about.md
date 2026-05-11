@@ -16,16 +16,19 @@ News
 
 About
 ======
-I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at Virginia Tech, advised by **Prof. Ming Jin**.  
-My research focuses on developing **temporally robust learning, optimization, and control algorithms** that remain reliable under non-stationarity, temporal drift, and evolving system dynamics. I am broadly interested in how intelligent decision-making systems can be made **stable, safe, and adaptive over time**.
+I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at Virginia Tech, advised by **Prof. Ming Jin**. My current research centers on **safe and reliable agentic AI** — making decision-making systems built on **large language models (LLMs)** stable, predictable, and safe across long horizons of use.
 
-My work spans several interconnected areas:
-- **Optimization & Online Algorithms** — dynamic penalization, rank-1 semidefinite programming, distributed optimization    
-- **Safe & Trustworthy AI** — reasoning stability, and robust behavior in agentic large language models
-- **System Identification** — finite-time identification of stable and unstable systems using non-causal FIR models
+**Memory safety and reasoning stability in LLM agents.** In *Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents* (under review at NeurIPS), I study how persistent memory amplifies safety risks over time. The work treats memory and context as evolving internal states and analyzes when they trigger failures such as incorrect commitments, disclosure, or inconsistent decisions; it develops measurable retrieval-time predictors that monitor risk before generation. I also contribute to an ongoing collaboration that takes an **operating-systems-inspired perspective** on evaluating the security of agentic AI systems.
 
-Before joining Virginia Tech, I completed my M.S. in Mechanical Engineering (Mechatronics) and my B.Tech in Aeronautical Engineering at the **Jordan University of Science and Technology**, where I was advised by **Dr. Khaled Al-Janaideh**.  
-During my Master’s, I worked on **system identification and model order estimation**, developing analytical techniques for reconstructing and understanding  dynamic systems.
+**Differentiable optimization, decision-focused learning, and learning-to-optimize.** A second thread of my research treats optimization as a learnable component inside larger pipelines:
+
+- **Dynamic penalization for rank-1 SDP relaxations** (L4DC 2025, with Lavaei and Jin). For each task, we differentiate through a penalized SDP solver to learn a penalty matrix that drives the relaxation toward a rank-1 solution; across tasks, a meta-learner predicts effective penalty initializations so new instances solve with fewer iterations while preserving feasibility and near-global optimality. Applications include Max-Cut and optimal power flow.
+- **Decision-focused learning for inverse noncooperative games** (IFAC World Congress 2023). The game's equilibrium is represented as a differentiable variational-inequality layer in an end-to-end pipeline, with covering-number-based generalization bounds and convergence analysis for the iterative-differentiation algorithm; the methodology extends naturally to MIPs via differentiable surrogates.
+- **Meta-LMRS** (L4DC 2023). A meta-learning framework for derivative-free optimization that jointly learns a meta-initialization and a meta-manifold across sequential tasks, with task-averaged regret bounds — learning-to-optimize for high-dimensional, nonconvex problems.
+
+**System identification and control.** I work on finite-time identification of LTI systems using **non-causal FIR models** — a unified framework that handles both stable and unstable systems. Earlier work, going back to my Master's, focused on **model order determination**: nonheuristic singular-value-thresholding approaches that recover the order of dynamic systems from noisy data (ASME JDSMC; ACC 2023, 2025).
+
+Before joining Virginia Tech, I completed my M.S. in Mechanical Engineering (Mechatronics) and my B.Tech in Aeronautical Engineering at the **Jordan University of Science and Technology**, advised by **Dr. Khaled Al-Janaideh**.
 
 **Contact:** atawaha@vt.edu  
 [CV](../files/cv.pdf) • [GitHub](https://github.com/Ahmad-Tawaha)
