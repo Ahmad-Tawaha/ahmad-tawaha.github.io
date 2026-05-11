@@ -8,6 +8,7 @@ author_profile: true
 News
 ======
 <!-- Most recent on top. Keep ~5–7 entries. -->
+- **2026 May**: Joining **Argonne National Laboratory** as a summer intern.
 - **2026 Apr**: Submitted to NeurIPS — *Remembering More, Risking More* (memory safety in LLM agents).
 - **2026 Jan**: Awarded the **Pratt Fellowship** by the Virginia Tech ECE Department (Spring 2026).
 - **2025 Jul**: Paper accepted at ACC 2025 — *An Analytical Approach to Signal Denoising Based on SVD*.
