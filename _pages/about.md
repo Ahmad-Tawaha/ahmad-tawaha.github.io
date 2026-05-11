@@ -8,11 +8,11 @@ author_profile: true
 News
 ======
 <!-- Most recent on top. Keep ~5–7 entries. -->
-- **2026 Spring**: Awarded the **Pratt Fellowship** by the Virginia Tech ECE Department.
 - **2026 Apr**: Submitted to NeurIPS — *Remembering More, Risking More* (memory safety in LLM agents).
-- **2025**: Paper accepted at ACC 2025 — *An Analytical Approach to Signal Denoising Based on SVD*.
-- **2025**: Presented at L4DC 2025 — *A Dynamic Penalization Framework for Online Rank-1 SDP Relaxations*.
-- **2025**: Two journal papers accepted — *IEEE Systems Journal* and *ASME JDSMC*.
+- **2026 Jan**: Awarded the **Pratt Fellowship** by the Virginia Tech ECE Department (Spring 2026).
+- **2025 Jul**: Paper accepted at ACC 2025 — *An Analytical Approach to Signal Denoising Based on SVD*.
+- **2025 Jun**: Presented at L4DC 2025 — *A Dynamic Penalization Framework for Online Rank-1 SDP Relaxations*.
+- **2025 Jan**: Two journal papers accepted — *IEEE Systems Journal* and *ASME JDSMC*.
 
 About
 ======
