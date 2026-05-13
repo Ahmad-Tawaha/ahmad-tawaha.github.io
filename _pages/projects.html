@@ -7,8 +7,104 @@ author_profile: true
 
 {% include base_path %}
 
+<style>
+.project-card {
+  display: flex;
+  gap: 1.25em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #eee;
+}
+.project-card .project-thumb {
+  flex: 0 0 220px;
+  position: relative;
+}
+.project-card .project-thumb img {
+  width: 220px;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid #ddd;
+}
+.project-card .venue-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #2c3e50;
+  color: #fff;
+  padding: 3px 8px;
+  font-size: 0.78em;
+  border-radius: 3px;
+  font-weight: 600;
+}
+.project-card .project-body {
+  flex: 1;
+  min-width: 0;
+}
+.project-card h3 {
+  margin: 0 0 0.4em 0;
+  font-size: 1.1em;
+  line-height: 1.35;
+}
+.project-card .authors {
+  margin: 0.15em 0;
+  font-size: 0.95em;
+}
+.project-card .venue-line {
+  margin: 0.15em 0 0.6em 0;
+  font-size: 0.92em;
+  color: #555;
+  font-style: italic;
+}
+.project-card .description {
+  font-size: 0.95em;
+  margin: 0.5em 0;
+}
+.project-card .actions {
+  margin-top: 0.6em;
+}
+.project-card .actions a {
+  display: inline-block;
+  padding: 4px 10px;
+  margin: 2px 4px 2px 0;
+  background: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  color: #333;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+.project-card .actions a:hover {
+  background: #e8e8e8;
+}
+@media (max-width: 700px) {
+  .project-card { flex-direction: column; }
+  .project-card .project-thumb { flex: 0 0 auto; }
+  .project-card .project-thumb img { width: 100%; max-width: 320px; }
+}
+</style>
 
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+<div class="project-card">
+  <div class="project-thumb">
+    {% if post.image %}
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+      {% if post.venue_short %}<span class="venue-badge">{{ post.venue_short }}</span>{% endif %}
+    {% endif %}
+  </div>
+  <div class="project-body">
+    <h3>{{ post.title }}</h3>
+    {% if post.authors %}<p class="authors">{{ post.authors }}</p>{% endif %}
+    {% if post.venue %}<p class="venue-line">{{ post.venue }}</p>{% endif %}
+    <div class="description">{{ post.content }}</div>
+    <div class="actions">
+      {% if post.pdf %}<a href="{{ post.pdf | relative_url }}">PDF</a>{% endif %}
+      {% if post.paper_url %}<a href="{{ post.paper_url }}">Paper</a>{% endif %}
+      {% if post.code_url %}<a href="{{ post.code_url }}">Code</a>{% endif %}
+      {% if post.slides_url %}<a href="{{ post.slides_url }}">Slides</a>{% endif %}
+      {% if post.video_url %}<a href="{{ post.video_url }}">Video</a>{% endif %}
+      {% if post.bibtex_url %}<a href="{{ post.bibtex_url }}">BibTeX</a>{% endif %}
+    </div>
+  </div>
+</div>
 {% endfor %}
-
