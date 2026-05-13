@@ -94,7 +94,7 @@ author_profile: true
   </div>
   <div class="project-body">
     <h3>{{ post.title }}</h3>
-    {% if post.authors %}<p class="authors">{{ post.authors }}</p>{% endif %}
+    {% if post.authors %}<p class="authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
     {% if post.venue %}<p class="venue-line">{{ post.venue }}</p>{% endif %}
     <div class="description">{{ post.content }}</div>
     <div class="actions">
