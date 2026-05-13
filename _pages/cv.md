@@ -50,6 +50,7 @@ Publications
 
 Awards & Scholarships
 ======
+* **2026** — Gold Reviewer, ICML 2026 (top reviewers; complimentary registration)
 * **2026** — Pratt Fellowship, Virginia Tech, Department of Electrical and Computer Engineering (Spring 2026)
 * **2024** — ACC 2024 Travel Scholarship
 * **2012–2018** — Full Scholarship (B.Sc. & M.Sc.), Ministry of Education, Jordan
@@ -61,5 +62,5 @@ Technical Skills
 
 Service
 ======
-* **Conference reviewer:** ICML 2026; ICLR 2025; ACC 2024, 2025, 2026; CDC 2025; IFAC 2023, 2025; IEEE Transactions on Control of Network Systems
+* **Conference reviewer:** ICML 2026 (**Gold Reviewer**); ICLR 2025; ACC 2024, 2025, 2026; CDC 2025; IFAC 2023, 2025; IEEE Transactions on Control of Network Systems
 * **Tutorials:** *Distributed Control Strategies for Resilient Power Grids*, SmartGridComm 2024

@@ -8,6 +8,7 @@ author_profile: true
 News
 ======
 <!-- Most recent on top. Keep ~5–7 entries. -->
+- **2026 May**: Recognized as a **Gold Reviewer** at **ICML 2026** — among the top reviewers this year.
 - **2026 May**: Joining **Argonne National Laboratory** as a summer intern.
 - **2026 Apr**: Submitted to NeurIPS — *Remembering More, Risking More* (memory safety in LLM agents).
 - **2026 Jan**: Awarded the **Pratt Fellowship** by the Virginia Tech ECE Department (Spring 2026).
@@ -26,6 +27,11 @@ I am a Ph.D. candidate in the Department of Electrical and Computer Engineering 
 **System identification and control.** I work on finite-time identification of LTI systems using **non-causal FIR models** — a unified framework that handles both stable and unstable systems. Earlier work, going back to my Master's, focused on **model order determination**: nonheuristic singular-value-thresholding approaches that recover the order of dynamic systems from noisy data (ASME JDSMC; ACC 2023, 2025).
 
 Before joining Virginia Tech, I completed my M.S. in Mechanical Engineering (Mechatronics) and my B.Tech in Aeronautical Engineering at the **Jordan University of Science and Technology**, advised by **Dr. Khaled Al-Janaideh**.
+
+Service
+======
+- **Conference reviewer:** ICML 2026 (**Gold Reviewer**); ICLR 2025; ACC 2024, 2025, 2026; CDC 2025; IFAC 2023, 2025; IEEE Transactions on Control of Network Systems.
+- **Tutorials:** *Distributed Control Strategies for Resilient Power Grids*, SmartGridComm 2024.
 
 **Contact:** atawaha@vt.edu  
 [CV](../files/cv.pdf) • [GitHub](https://github.com/Ahmad-Tawaha)
