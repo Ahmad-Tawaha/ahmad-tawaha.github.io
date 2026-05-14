@@ -9,7 +9,7 @@ location: "Oslo, Norway"
 slidesurl: "https://docs.google.com/presentation/d/1ZygpZx7yMPnSyXy1x34EK6OsmIMbFXYEqsBwKhhZk0s/edit?slide=id.p#slide=id.p"
 ---
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1.5em 0;">
+<div style="position: relative; padding-bottom: 39.375%; height: 0; overflow: hidden; max-width: 700px; margin: 1.5em 0;">
   <iframe src="https://docs.google.com/presentation/d/1ZygpZx7yMPnSyXy1x34EK6OsmIMbFXYEqsBwKhhZk0s/embed?start=false&loop=false&delayms=3000"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
           allowfullscreen
