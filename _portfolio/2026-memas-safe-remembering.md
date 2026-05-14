@@ -25,8 +25,12 @@ Most safety evaluations of memory-equipped LLM agents measure **within-task** sa
 
 We study a different failure mode we call **temporal memory contamination**: **benign** memory accumulation across tasks gradually makes the agent unsafe — no attacker required. We test it on 5 deployment streams, 8 memory architectures, and two agent classes (office assistants and Claw-like tool-using agents). Memory-induced violation rates rise robustly with exposure length, the effect is driven by **accumulated content rather than encounter order**, and the risk is structurally detectable from **retrieval-time signals before generation** — we confirm this with a high-recall monitor.
 
-![Event framework, trigger-probe protocol, and resulting metric across memory architectures](/images/projects/remembering-more.png)
-*Figure: (a) The three-part event decomposition. (b) The trigger-probe protocol — fixed probes evaluated against read-only memory snapshots at varying exposure lengths. (c) Memory-induced violation rate as a function of checkpoint, across seven memory architectures.*
+<figure style="margin: 1.5em 0; text-align: center;">
+  <img src="/images/projects/remembering-more.png" alt="Event framework, trigger-probe protocol, and resulting metric across memory architectures" style="width: 100%; max-width: 1100px; display: block; margin: 0 auto;">
+  <figcaption style="font-style: italic; font-size: 0.92em; margin-top: 0.5em; color: #555;">
+    Figure: (a) The three-part event decomposition. (b) The trigger-probe protocol — fixed probes evaluated against read-only memory snapshots at varying exposure lengths. (c) Memory-induced violation rate as a function of checkpoint, across seven memory architectures.
+  </figcaption>
+</figure>
 
 ---
 
