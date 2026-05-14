@@ -9,6 +9,14 @@ location: "Oslo, Norway"
 slidesurl: "https://docs.google.com/presentation/d/1ZygpZx7yMPnSyXy1x34EK6OsmIMbFXYEqsBwKhhZk0s/edit?slide=id.p#slide=id.p"
 ---
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 1.5em 0;">
+  <iframe src="https://docs.google.com/presentation/d/1ZygpZx7yMPnSyXy1x34EK6OsmIMbFXYEqsBwKhhZk0s/embed?start=false&loop=false&delayms=3000"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+          allowfullscreen
+          mozallowfullscreen
+          webkitallowfullscreen></iframe>
+</div>
+
 Based on the survey *"Distributed Optimization and Distributed Learning: A Paradigm Shift for Power Systems"*.
 
 This survey provides a comprehensive overview of recent advances in distributed optimization and machine learning for power systems, particularly focusing on optimal power flow (OPF) problems. We cover distributed algorithms for convex relaxations and nonconvex optimization, highlighting key algorithmic ingredients and practical considerations for their implementation. Furthermore, we explore the emerging field of distributed machine learning, including deep learning and (multi-agent) reinforcement learning, and their applications in areas such as OPF and voltage control. We investigate the synergy between optimization and learning, particularly in the context of learning-assisted distributed optimization, and provide the first comprehensive survey of distributed real-time OPF, addressing time-varying conditions and constraint handling. Throughout the survey, we emphasize practical considerations such as data efficiency, scalability, and safety, aiming to guide researchers and practitioners in developing and deploying effective solutions for a more efficient and resilient power grid.
