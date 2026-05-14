@@ -44,9 +44,12 @@ Both cases share a common form: **benign accumulation → retrieval at a later t
 
 ## Why a naive approach fails
 
-You might think: just plot violations against time and look for an increasing trend. Figure 1 of the paper shows why this fails. We deploy an email agent on an Enron persona mailbox (1,867 emails, Jan 2000 – Aug 2001) — a period during which corporate collapse was approaching, email volume was surging, and topics were growing increasingly sensitive. Cumulative violations rise for **both** the stateful and the **stateless** baseline. The time trend therefore reflects changes in the input stream itself, not memory accumulation.
+You might think: just plot violations against time and look for an increasing trend. The figure below shows why this fails. We deploy an email agent on an Enron persona mailbox (1,867 emails, Jan 2000 – Aug 2001) — a period during which corporate collapse was approaching, email volume was surging, and topics were growing increasingly sensitive.
 
-Isolating memory effects requires protocols that **separate accumulation from stream non-stationarity**.
+![Cumulative violations on Enron — both stateful and stateless agents rise together, confounding memory effects with stream non-stationarity](/images/projects/remembering-more-enron.png)
+*Cumulative violations on Enron. Both the stateful (memory-equipped) agent and the **stateless** baseline rise together as the Enron crisis approaches. The time trend therefore reflects changes in the input stream itself, not memory accumulation.*
+
+Isolating memory effects requires protocols that **separate accumulation from stream non-stationarity** — which is what our trigger-probe protocol does.
 
 ---
 
