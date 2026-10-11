@@ -11,7 +11,7 @@ News
 🏆 **[2026 Oct]**: I led team **SAGE × ANL** to **3rd place** in the [AI4REALNET L2RPN 2026 Challenge](https://www.codabench.org/competitions/14411/). The challenge asks AI agents to operate a power grid in real time.
 {: .notice--success}
 
-- **[2026 Oct]**: Paper accepted as a poster at IAEval 2026 (Workshop on Evaluation of Interactive Agents) — *Evaluating Memory Safety as a Trajectory: A Trigger–Probe Protocol*.
+- **[2026 Oct]**: Paper accepted as a poster at IAEval 2026 (**NeurIPS 2026** Workshop on Evaluation of Interactive Agents) — *Evaluating Memory Safety as a Trajectory: A Trigger–Probe Protocol*.
 - **[2026 Oct]**: Awarded the **Pratt Fellowship** again by the Virginia Tech ECE Department (Fall 2026).
 - **[2026 Aug]**: Completed my summer internship at **Argonne National Laboratory**.
 - **[2026 May]**: Recognized as a **Gold Reviewer** at **ICML 2026** — among the top reviewers this year.
