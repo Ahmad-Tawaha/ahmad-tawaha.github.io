@@ -16,7 +16,6 @@ News
 - **[2026 Aug]**: Completed my summer internship at **Argonne National Laboratory**.
 - **[2026 May]**: Recognized as a **Gold Reviewer** at **ICML 2026** — among the top reviewers this year.
 - **[2026 May]**: Joining **Argonne National Laboratory** as a summer intern.
-- **[2026 Apr]**: Submitted to NeurIPS — *Remembering More, Risking More* (memory safety in LLM agents).
 
 <details markdown="1">
 <summary>Older news</summary>
