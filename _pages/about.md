@@ -29,11 +29,11 @@ News
 
 About
 ======
-I am a Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, advised by **Prof. Ming Jin**. I work on AI systems that make long sequences of decisions, such as AI agents, learned controllers, and learned optimizers, and on keeping them safe and robust over long periods of use. My work combines machine learning, optimization, and control. I have applied it to AI agents with memory, to power grids, and to learning models of dynamical systems from data.
+I am a Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, advised by **[Prof. Ming Jin](https://jinming.tech/)**. I work on AI systems that make long sequences of decisions, such as AI agents, learned controllers, and learned optimizers, and on keeping them safe and robust over long periods of use. My work combines machine learning, optimization, and control. I have applied it to AI agents with memory, to power grids, and to learning models of dynamical systems from data.
 
 Looking ahead, I am excited about AI for science and discovery: AI agents that help design experiments, learn models from data, and solve hard optimization problems, with checks that make their results trustworthy.
 
-Before Virginia Tech, I received an M.S. in Mechanical Engineering (Mechatronics) and a B.Tech in Aeronautical Engineering from the Jordan University of Science and Technology.
+Before Virginia Tech, I received an M.S. in Mechanical Engineering (Mechatronics) and a B.Tech in Aeronautical Engineering from the Jordan University of Science and Technology, where my M.S. advisor was **Dr. Khaled F. Aljanaideh**.
 
 Service
 ======
