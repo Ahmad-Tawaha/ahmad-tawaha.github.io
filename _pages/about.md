@@ -29,15 +29,11 @@ News
 
 About
 ======
-I am a Ph.D. candidate in the Department of Electrical and Computer Engineering at Virginia Tech, advised by **Prof. Ming Jin**. My current research centers on **safe and reliable agentic AI** — making decision-making systems built on **large language models (LLMs)** stable, predictable, and safe across long horizons of use.
+I am a Ph.D. candidate in Electrical and Computer Engineering at Virginia Tech, advised by **Prof. Ming Jin**. I work on AI systems that make long sequences of decisions, such as AI agents, learned controllers, and learned optimizers, and on keeping them safe and robust over long periods of use. My work combines machine learning, optimization, and control. I have applied it to AI agents with memory, to power grids, and to learning models of dynamical systems from data.
 
-**Memory safety and reasoning stability in LLM agents.** In *Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents* (under review at NeurIPS), I study how persistent memory amplifies safety risks over time. The work treats memory and context as evolving internal states and analyzes when they trigger failures such as incorrect commitments, disclosure, or inconsistent decisions; it develops measurable retrieval-time predictors that monitor risk before generation. I also contribute to an ongoing collaboration that takes an **operating-systems-inspired perspective** on evaluating the security of agentic AI systems.
+Looking ahead, I am excited about AI for science and discovery: AI agents that help design experiments, learn models from data, and solve hard optimization problems, with checks that make their results trustworthy.
 
-**Differentiable optimization, decision-focused learning, and learning-to-optimize.** A second thread of my research treats optimization as a learnable component inside larger pipelines. In *Dynamic Penalization for Rank-1 SDP Relaxations* (L4DC 2025, with Lavaei and Jin), we differentiate through a penalized SDP solver to learn penalty matrices that drive relaxations toward rank-1 solutions, and meta-learn initializations across tasks for faster, feasibility-preserving solves on Max-Cut and optimal power flow. *Decision-Focused Learning for Inverse Noncooperative Games* (IFAC 2023) represents game equilibria as differentiable variational-inequality layers, with covering-number-based generalization bounds and a convergence analysis that extends naturally to MIPs via differentiable surrogates. *Meta-LMRS* (L4DC 2023) jointly learns a meta-initialization and a meta-manifold for derivative-free optimization across sequential tasks, with task-averaged regret bounds for high-dimensional, nonconvex problems.
-
-**System identification and control.** I work on finite-time identification of LTI systems using **non-causal FIR models** — a unified framework that handles both stable and unstable systems. Earlier work, going back to my Master's, focused on **model order determination**: nonheuristic singular-value-thresholding approaches that recover the order of dynamic systems from noisy data (ASME JDSMC; ACC 2023, 2025).
-
-Before joining Virginia Tech, I completed my M.S. in Mechanical Engineering (Mechatronics) and my B.Tech in Aeronautical Engineering at the **Jordan University of Science and Technology**, advised by **Dr. Khaled Al-Janaideh**.
+Before Virginia Tech, I received an M.S. in Mechanical Engineering (Mechatronics) and a B.Tech in Aeronautical Engineering from the Jordan University of Science and Technology.
 
 Service
 ======
