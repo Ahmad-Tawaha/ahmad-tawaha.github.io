@@ -3,7 +3,7 @@ title: "Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equi
 collection: portfolio
 permalink: /projects/remembering-more/
 authors: "**Ahmad Al-Tawaha** (Virginia Tech), Shangding Gu (UC Berkeley), Peizhi Niu (UIUC), Ruoxi Jia (Virginia Tech), Ming Jin (Virginia Tech)"
-venue: "Preprint, 2026 — under review at NeurIPS"
+venue: "Preprint, 2026 — under review"
 venue_short: "Preprint 2026"
 image: "/images/projects/remembering-more.png"
 pdf: "/files/remembering-more.pdf"
@@ -13,7 +13,7 @@ tagline: "Memory-equipped LLM agents can become **less safe over time** even wit
 **Authors:** **Ahmad Al-Tawaha**\* (Virginia Tech), Shangding Gu (UC Berkeley), Peizhi Niu (UIUC), Ruoxi Jia (Virginia Tech), Ming Jin (Virginia Tech)
 {: .author-line}
 
-*Preprint, 2026 — under review at NeurIPS*
+*Preprint, 2026 — under review*
 
 [**PDF**](/files/remembering-more.pdf){: .btn .btn--info} [**Email**](mailto:atawaha@vt.edu){: .btn .btn--info}
 
@@ -111,7 +111,7 @@ The structural consequence — that memory-induced risk is detectable from retri
   title  = {Remembering More, Risking More: Longitudinal Safety Risks in Memory-Equipped LLM Agents},
   author = {Al-Tawaha, Ahmad and Gu, Shangding and Niu, Peizhi and Jia, Ruoxi and Jin, Ming},
   year   = {2026},
-  note   = {Preprint; under review at NeurIPS}
+  note   = {Preprint; under review}
 }
 ```
 
